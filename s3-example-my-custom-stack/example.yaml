@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Template to create a S3 bucket"
+
+# Resources section
+Resources:
+  MyFirstS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      #BucketEncryption:
+        #BucketEncryption
+      BucketName: "sampath-cloudformation-custom-template"
+  MySecondS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      #BucketEncryption:
+      #BucketEncryption
+      BucketName: "sampath-cloudformation-custom-template-2"
