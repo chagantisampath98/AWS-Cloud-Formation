@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  sampathcftbucket:
+    Type: 'AWS::S3::Bucket'
+    Properties: {}
+  sampathcftbucket2:
+    Type: 'AWS::S3::Bucket'
+    Properties: {}
